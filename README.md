@@ -12,3 +12,15 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 ```
+### Run this app 
+```
+python3 app.py
+```
+
+### Options: 
+1 . For Only Eye Detection
+
+### Reformat this app 
+```
+make black
+```
