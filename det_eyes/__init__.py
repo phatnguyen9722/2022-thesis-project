@@ -17,11 +17,11 @@ EYE_FRAMES = 25
 
 
 def calc_EAR(eye):
-    """""" """
+    """
     This function to calculate Eye Aspect Ratio each Eye.
     A & B presents for top-down points of the Eye
     C is for left-right points of the Eye   
-    """ """"""
+    """
     A = dist.euclidean(eye[1], eye[5])
     B = dist.euclidean(eye[2], eye[4])
     C = dist.euclidean(eye[0], eye[3])
