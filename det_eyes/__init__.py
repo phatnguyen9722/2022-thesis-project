@@ -10,10 +10,10 @@ from imutils import face_utils
 from threading import Thread
 import threading
 
-##### Region: Arguments #####
+# region for Arguments
 EYE_THRESH = 0.25
 EYE_FRAMES = 25
-##### End Region #####
+# endregion
 
 
 def calc_EAR(eye):
